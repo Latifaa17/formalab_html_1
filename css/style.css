@@ -41,6 +41,5 @@ a:visited
 }
 
 ul{
-    list-style-image: url("../images/cute.jpg");
-    
+    list-style-image: url("");
 }
