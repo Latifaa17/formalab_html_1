@@ -9,6 +9,10 @@
         <form name="form1">
             <input name="btClic" type="button" value="Cliquez ici" onclick="message();"/>
         </form>
+        <form name="form2">
+            <input type="text" name="txtNom"/>
+            <input name="btClic2" type="button" value="Cliquez ici" onClick="message2(document.form2.txtNom);"/>
+        </form>
         <script src="../JS/ctrl.js"></script>
     </body>
 </html>
